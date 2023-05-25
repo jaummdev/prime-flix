@@ -3,32 +3,38 @@
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
+    padding: 0 50px;
+}
+.my-filmes ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 700px;
+}
+.my-filmes li{
+    display: flex;
+    width: 100%;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
 }
 .my-filmes h1{
     margin-bottom: 20px;
 }
-.my-filmes span{
+.my-filmes .filme-title{
     font-size: 20px;
 }
-.my-filmes ul{
-    width: 720px;
-}
-.my-filmes ul li{
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-}
+
 .my-filmes div{
     display: flex;
-    justify-content: center;
     align-items: center;
+    gap: 24px;
+    margin-left: 12px;
 }
 .my-filmes div a{
     text-decoration: none;
     color: #116feb;
-    margin-right: 14px;
 }
 .my-filmes button{
     padding: 10px 14px;
